@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SmileLoadingView.h"
+#import "NVLoadingView.h"
 
 @interface ViewController ()
 
@@ -19,17 +20,26 @@
     [super viewDidLoad];
     
     [self showSmileView];
+    [self showNVLoadingWithSucess:YES];
+    [self showNVLoadingWithSucess:NO];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)showSmileView {
     
-    SmileLoadingView *loadingView = [[SmileLoadingView alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
-    loadingView.center = self.view.center;
-    loadingView.backgroundColor = [UIColor whiteColor];
+    SmileLoadingView *loadingView = [[SmileLoadingView alloc]initWithFrame:CGRectMake(20, 50, 30, 30)];
     [self.view addSubview:loadingView];
     
 }
+
+- (void)showNVLoadingWithSucess:(BOOL)sucess {
+    NVLoadingView *loadingView = [[NVLoadingView alloc]initWithFrame:CGRectMake(70, 50, 300, 300)];
+    [self.view addSubview:loadingView];
+    
+  
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -16,6 +16,7 @@
 		8270A10F201EB4DE005C5676 /* loadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270A10E201EB4DE005C5676 /* loadingTests.m */; };
 		8270A11A201EB4DE005C5676 /* loadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270A119201EB4DE005C5676 /* loadingUITests.m */; };
 		8270A12A201EB5BA005C5676 /* SmileLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270A129201EB5BA005C5676 /* SmileLoadingView.m */; };
+		82A81450202E93170057902F /* NVLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A8144F202E93170057902F /* NVLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8270A11B201EB4DE005C5676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8270A128201EB5BA005C5676 /* SmileLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmileLoadingView.h; sourceTree = "<group>"; };
 		8270A129201EB5BA005C5676 /* SmileLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileLoadingView.m; sourceTree = "<group>"; };
+		82A8144E202E93170057902F /* NVLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVLoadingView.h; sourceTree = "<group>"; };
+		82A8144F202E93170057902F /* NVLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 			children = (
 				8270A128201EB5BA005C5676 /* SmileLoadingView.h */,
 				8270A129201EB5BA005C5676 /* SmileLoadingView.m */,
+				82A8144E202E93170057902F /* NVLoadingView.h */,
+				82A8144F202E93170057902F /* NVLoadingView.m */,
 			);
 			path = loading;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A81450202E93170057902F /* NVLoadingView.m in Sources */,
 				8270A12A201EB5BA005C5676 /* SmileLoadingView.m in Sources */,
 				8270A0FA201EB4DE005C5676 /* ViewController.m in Sources */,
 				8270A105201EB4DE005C5676 /* main.m in Sources */,
